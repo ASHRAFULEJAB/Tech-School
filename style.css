@@ -2,6 +2,6 @@
 position: relative;
 width: 100vw;
 height: 50vh;
-left: calc(-50vw + 50%);
+left: calc(-50vw + 49%);
 background-color: black;
 }
