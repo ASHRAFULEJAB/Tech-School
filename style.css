@@ -1,0 +1,7 @@
+.tech-footer-container {
+position: relative;
+width: 100vw;
+height: 50vh;
+left: calc(-50vw + 50%);
+background-color: black;
+}
