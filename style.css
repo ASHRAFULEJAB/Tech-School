@@ -5,3 +5,29 @@ height: 50vh;
 left: calc(-50vw + 49%);
 background-color: black;
 }
+/* media query */
+@media  screen and ( max-width:688px ){
+    .edit-image img{
+        width: 100% !important;
+    }
+     .sizeedit{
+        height: 100% !important;
+        width: 50%;
+        font-size: 10px !important;
+        font-weight: 700 !important;
+    }
+    .modaledit{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .carsoledit{
+        margin-top: 0;
+        width: 75% !important;
+        height: 85% !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
